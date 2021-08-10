@@ -1,0 +1,37 @@
+{
+  "name": "@stonecoldpat/etherjs-basic",
+  "version": "0.1.0",
+  "description": "etherjs basic project",
+  "author": "stonecoldpat <stonecoldpat@gmail.com>",
+  "homepage": "https://github.com/stonecoldpat",
+  "license": "ISC",
+  "types": "lib/index",
+  "main": "lib/index",
+  "directories": {
+    "lib": "build",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stonecoldpat/etherjs-basic.git"
+  },
+  "scripts": {
+    "execute": "ts-node src/ts/index.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/stonecoldpat/etherjs-basic/issues"
+  },
+  "dependencies": {
+    "ethers": "^5.4.4",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.4",
+    "@types/request-promise-native": "^1.0.17",
+    "typechain": "1.0.3",
+    "typechain-target-ethers": "^1.0.3"
+  }
+}
